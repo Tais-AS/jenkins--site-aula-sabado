@@ -4,10 +4,10 @@ pipeline {
     stages {
         stage('Build') {
             steps{
-                sh 'echo"Sábado de aulas intesivas"'
+                sh 'echo "Sábado de aulas intesivas"'
                 sh '''
                     echo "Nosso Sábado Maravilhoso"
-                    ls-la
+                    ls -la
                 '''
             }
         }
