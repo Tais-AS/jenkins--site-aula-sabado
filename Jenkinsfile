@@ -6,7 +6,7 @@ pipeline {
             steps{
                 sh 'echo"Sábado de aulas intesivas"'
                 sh '''
-                    echo "Nosso Sábado"
+                    echo "Nosso Sábado Maravilhoso"
                     ls-la
                 '''
             }
